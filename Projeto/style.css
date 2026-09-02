@@ -55,10 +55,20 @@ footer p{
 }
 
 .icone{
-    fill: black;
+    fill:white;
     stroke: black;
-    stroke-width: 8px;
-    width: 85px;
+    stroke-width: 10px;
+    width: 70px;
+    height: 70px;
 }
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+
 
 
