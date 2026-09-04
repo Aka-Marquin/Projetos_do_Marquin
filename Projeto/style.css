@@ -15,6 +15,7 @@ header{
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:white;
+    font-size: larger;
 }
 
 body a {
@@ -32,6 +33,14 @@ body a:hover{
     /*background-color: rgb(124, 100, 166);*/
     background-color: rgb(99, 104, 74);
     padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#apres h1{
+    display: flex;
+    align-self: flex-start; 
 }
 
 #contatos{
@@ -40,12 +49,37 @@ body a:hover{
 
 #sobre{
    padding-top: 25px;
+   display: flex;
+   gap: 50px;
+   margin-inline: 50px;
 }
 
 #habil{
-   padding-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-inline: 50px;
+    /*display: flex;
+    flex-direction: row;
+    justify-self: center;*/
 }
 
+.habil h3{
+    text-align: center;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.habilidadeBloco{
+    display: flex;
+    flex-direction:column;
+}
+
+.habilidadeContainer{
+    padding-block: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 footer{
     background-color: rgb(90, 99, 69);
 }
@@ -68,8 +102,14 @@ footer ul{
     list-style-type: none;
 }
 
+.iconeSobre {
+    width: 60px;
+    height: 60px; 
+}
 
-
-
-
-
+.linksIcon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
