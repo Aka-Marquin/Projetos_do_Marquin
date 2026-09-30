@@ -68,24 +68,6 @@ main{
     height: 60px; 
 }
 
-/*#apres h3{
-    display: flex;
-    align-self: flex-start; 
-}*/
-
-/*#contatos{
-    padding-top: 25px;
-}*/
-
-/*#habil{
-   padding-top: 35px;
-    padding-bottom: 35px;
-    margin-inline: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-}*/
-
 .habil h3 {
     text-align: center;
     /*gap: 30px;*/
@@ -228,6 +210,15 @@ footer ul{
         color: black;
         font-weight: bolder;
     }
+
+    #simples {
+    background-color:burlywood;
+    font-weight: bold;
+    padding: 1px;
+    color: black;
+}
+
+
 }
 
 /* Tablets (601px até 991px) */
@@ -294,6 +285,13 @@ footer ul{
         color: black;
         font-weight: bolder;
     }
+
+    #simples {
+    background-color:rgb(3, 175, 175);
+    font-weight: none;
+    padding: 1px;
+    color: whitesmoke;
+}
 }
 
 /* Computadores */
@@ -329,7 +327,7 @@ footer ul{
         background-color: rgb(99, 104, 74);
         padding-top: 15px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     #sobre{
@@ -363,4 +361,27 @@ footer ul{
         color: black;
         font-weight: bolder;
     }
+
+    #simples {
+    background-color: rgb(99, 104, 74);
+    font-weight: bolder;
+    padding: 1px;
+    color: black;
 }
+}
+
+.gordo{
+    background-color:black;
+    color: white;
+}
+
+#corpo,.iconeSobre{
+    fill: gray;
+    stroke: gray;
+    stroke-width: 15px;
+    width: 45px;
+    height: 40px;
+}
+
+
+
